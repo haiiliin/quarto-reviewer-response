@@ -5,7 +5,7 @@ quarto-required: ">=1.6.0"
 contributes:
   formats:
     pdf:
-      template-partials: ["partials/before-body.tex", "partials/before-title.tex"]
+      template-partials: ["partials/before-title.tex"]
       format-resources: ["reviewresponse.cls"]
       documentclass: reviewresponse
       cite-method: biblatex
