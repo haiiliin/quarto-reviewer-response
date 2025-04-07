@@ -107,7 +107,7 @@
 
 \newenvironment{revresponse}[1][{Thank you for the comment.}]{%
 	\textbf{Response:} #1\par
-}{\vspace{4em plus 0.2em minus 1.5em}}
+}{\vspace{1em plus 0.5em minus 0.5em}}
 
 \newenvironment{concludingresponse}[1][]{%
 	\begin{tcolorbox}[attach title to upper, breakable, title={Concluding Response #1}, after title={.\enskip}, fonttitle={\bfseries}, coltitle={colorconcludingresponsefg}, colback={colorconcludingresponsebg}, colframe={colorconcludingresponseframe},]
