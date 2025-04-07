@@ -1,0 +1,54 @@
+%% Language
+% \usepackage{babel}
+\usepackage{microtype}
+\usepackage{csquotes}
+
+%% Fonts
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\usepackage{newcent} % different font
+%\usepackage[scaled]{beramono} % different monospace font
+
+%% Bibliography
+% \usepackage[backend=biber,style=ieee,dashed=false,url=false,isbn=false,defernumbers=true,refsection=section]{biblatex}
+% \bibliography{literature.bib}
+
+\usepackage{hyperref}
+
+\title{$title$}
+\author{$author$}
+\journal{$journal.name$}
+\manuscript{$journal.manuscript$}
+\editorname{$journal.editor$}
+
+$if(color.comment.font)$
+\colorlet{colorcommentfg}{$color.comment.font$}
+$endif$
+
+$if(color.comment.background)$
+\colorlet{colorcommentbg}{$color.comment.background$}
+$endif$
+
+$if(color.comment.frame)$
+\colorlet{colorcommentframe}{$color.comment.frame$}
+$endif$
+
+$if(color.change.background)$
+\colorlet{colorchangebg}{$color.change.background$}
+$endif$
+
+$if(color.change.frame)$
+\colorlet{colorchangeframe}{$color.change.frame$}
+$endif$
+
+$if(color.concluding.font)$
+\colorlet{colorconcludingresponsefg}{$color.concluding.font$}
+$endif$
+
+$if(color.concluding.background)$
+\colorlet{colorconcludingresponsebg}{$color.concluding.background$}
+$endif$
+
+$if(color.concluding.frame)$
+\colorlet{colorconcludingresponseframe}{$color.concluding.frame$}
+$endif$

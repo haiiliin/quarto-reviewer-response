@@ -1,0 +1,107 @@
+---
+title: My Awesome Paper Title
+format:
+  html:
+    toc: true
+    code-fold: true
+    appendix-cite-as: display
+    link-external-newwindow: true
+  reviewer-response-pdf:
+    keep-tex: true
+
+author: Donald Duck and Mickey Mouse
+journal:
+  name: IEEE Transactions on Wireless Communications
+  manuscript: TWC-2020-X
+  editor: Dr. Doom
+
+color:
+  change:
+    background: black!2
+    frame: black!20
+  concluding:
+    font: black!80
+    background: black!2
+    frame: black!20
+
+filters:
+  - latex-environment
+environments:
+  - generalcomment
+  - revcomment
+  - revresponse
+  - concludingresponse
+  - changes
+
+bibliography: bibliography.bib  
+---
+
+Dear Dr. Doom,
+
+Please find enclosed the revised version of our previous submission entitled "My Awesome Paper Title" with manuscript number TWC-2020-X.
+We would like to thank you and the reviewers for the valuable comments which help improving the quality of our manuscript.
+In this revision, we have carefully addressed the reviewers' comments.
+A summary of main modifications and a detailed point-by-point response to the comments from Reviewers 1 to 3 (following the reviewers' order in the decision letter) are given below.
+
+Sincerely,
+
+Donald Duck and Mickey Mouse
+
+**Note:** To enhance the legibility of this response letter, all the editor's and reviewers' comments are typeset in boxes. Rephrased or added sentences are typeset in color. The respective parts in the manuscript are highlighted to indicate changes.
+
+{{< pagebreak >}}
+
+# Authors' Response to the Editor
+
+::: {.generalcomment}
+The reviewer(s) have suggested some minor revisions to your manuscript. Therefore, I invite you to respond to the reviewer(s)' comments and revise your manuscript.
+:::
+
+::: {.revresponse options="We appreciate your handling of the review process."}
+According to the reviewers' comments, we have checked our manuscript and addressed them in the following way:
+
+1. We added content.
+2. We removed our wrong statements in Section I.
+:::
+
+::: {.concludingresponse options="to the Editor"}
+Thank you for your valuable comments on our manuscript. 
+We have done our best to incorporate changes to reflect the suggestions, which allowed us to improve the quality of our work.
+:::
+
+{{< pagebreak >}}
+
+# Authors' Response to Reviewer 1
+
+::: {.generalcomment}
+General comment about the work.
+:::
+
+::: {.revresponse options="Thank you for your feedback."}
+We have carefully addressed all the issues item by item as follows.
+:::
+
+::: {.revcomment}
+Your work is really good. However, you should change the title.
+:::
+
+::: {.revresponse}
+We agree that the title is somewhat misleading.
+We therefore changed it in the current version of the manuscript.
+:::
+
+::: {.revcomment}
+Everything else is really good.
+:::
+
+:::: {.revresponse}
+We totally agree. We also added the following to the new version of the manuscript
+
+::: {.changes}
+This really important sentence was added to the paper.
+:::
+::::
+
+::: {.concludingresponse options="to Reviewer 1"}
+Thank you for your valuable comments on our manuscript. 
+:::
