@@ -65,6 +65,7 @@ According to the reviewers' comments, we have checked our manuscript and address
 \bigskip
 \horizontalline
 \setcounter{reviewer}{1}
+\setcounter{point}{0}
 ```
 
 # To Reviewer 1
