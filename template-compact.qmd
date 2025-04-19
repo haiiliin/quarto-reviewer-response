@@ -1,0 +1,97 @@
+---
+title: My Awesome Paper Title
+format:
+  html:
+    toc: true
+    code-fold: true
+    appendix-cite-as: display
+    link-external-newwindow: true
+  reviewer-response-compact-pdf:
+    keep-tex: true
+
+author: Donald Duck and Mickey Mouse
+journal:
+  name: IEEE Transactions on Wireless Communications
+  manuscript: TWC-2020-X
+  editor: Dr. Doom
+
+color:
+  change:
+    background: black!2
+    frame: black!20
+  concluding:
+    font: black!80
+    background: black!2
+    frame: black!20
+
+filters:
+  - latex-environment
+environments:
+  - point
+  - reply
+  - todo
+
+bibliography: bibliography.bib  
+---
+
+Dear Dr. Doom,
+
+Please find enclosed the revised version of our previous submission entitled "My Awesome Paper Title" with manuscript number TWC-2020-X.
+We would like to thank you and the reviewers for the valuable comments which help improving the quality of our manuscript.
+In this revision, we have carefully addressed the reviewers' comments.
+A summary of main modifications and a detailed point-by-point response to the comments from Reviewers 1 to 3 (following the reviewers' order in the decision letter) are given below.
+
+Sincerely,
+
+Donald Duck and Mickey Mouse
+
+```{=latex}
+\bigskip
+\horizontalline
+```
+
+# To Editor
+
+The reviewer(s) have suggested some minor revisions to your manuscript. Therefore, I invite you to respond to the reviewer(s)' comments and revise your manuscript.
+
+::: {.reply}
+According to the reviewers' comments, we have checked our manuscript and addressed them in the following way:
+
+1. We added content.
+2. We removed our wrong statements in Section I.
+:::
+
+```{=latex}
+\bigskip
+\horizontalline
+\setcounter{reviewer}{1}
+```
+
+# To Reviewer 1
+
+General comment about the work.
+
+::: {.reply}
+We have carefully addressed all the issues item by item as follows.
+:::
+
+::: {.point}
+Your work is really good. However, you should change the title.
+:::
+
+::: {.reply}
+We agree that the title is somewhat misleading.
+We therefore changed it in the current version of the manuscript.
+:::
+
+::: {.point}
+Everything else is really good.
+:::
+
+:::: {.reply}
+We totally agree. We also added the following to the new version of the manuscript
+
+::: {.todo}
+This really important sentence was added to the paper.
+:::
+::::

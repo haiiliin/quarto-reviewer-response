@@ -1,6 +1,6 @@
 # quarto-reviewer-response
 
-A [Quarto](https://quarto.org/) template for responding to reviewers. Modified from [klb2/review-response-template](https://github.com/klb2/review-response-template).
+A [Quarto](https://quarto.org/) template for responding to reviewers. Modified from [klb2/review-response-template](https://github.com/klb2/review-response-template) and [chauby/paper_response_to_reviewers](https://github.com/chauby/paper_response_to_reviewers).
 
 ## Creating a New Article
 
@@ -29,6 +29,8 @@ format:
 
 ## Options
 
+### `reviewer-response-pdf`
+
 - `journal.name`: The name of the journal.
 - `journal.manuscript`: The manuscript number.
 - `journal.editor`: The name of the editor.
@@ -43,4 +45,4 @@ format:
 
 ## Example
 
-Here is the source code for a minimal sample document: [template.qmd](template.qmd), see the [PDF output](template.pdf).
+Here is the source code for a minimal sample document: [template.qmd](template.qmd),  [template-compact.qmd](template.qmd), see PDF output: [template.pdf](template.pdf), [template-compact.pdf](template-compact.pdf).

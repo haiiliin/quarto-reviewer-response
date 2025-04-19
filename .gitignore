@@ -2,6 +2,6 @@
 
 /.luarc.json
 /reviewresponse.cls
-template.spl
-template.tex
+template*.spl
+template*.tex
 template_files/
