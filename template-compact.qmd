@@ -30,6 +30,7 @@ environments:
   - point
   - reply
   - todo
+  - change
 
 bibliography: bibliography.bib  
 ---
@@ -80,10 +81,14 @@ We have carefully addressed all the issues item by item as follows.
 Your work is really good. However, you should change the title.
 :::
 
-::: {.reply}
+:::: {.reply}
 We agree that the title is somewhat misleading.
 We therefore changed it in the current version of the manuscript.
+
+::: {.change}
+Changes made to support the point.
 :::
+::::
 
 ::: {.point}
 Everything else is really good.
