@@ -58,7 +58,7 @@
 %% with box
 \newenvironment{reply}[1][]
 {
-   \begin{tcolorbox}[colback=gray!10, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable]
+   \begin{tcolorbox}[colback=gray!10, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable, parbox=false]
    \textcolor{blue}{\textbf{Reply}} #1
    \tcblower
 }{
@@ -67,7 +67,7 @@
 
 \newenvironment{change}[1][]
 {
-   \begin{tcolorbox}[colback=green!20, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable]
+   \begin{tcolorbox}[colback=green!20, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable, parbox=false]
    \textcolor{red}{\textbf{Change}} #1
    \tcblower
 }{
@@ -76,7 +76,7 @@
 
 \newenvironment{todo}[1][]
 {
-   \begin{tcolorbox}[colback=yellow!20, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable]
+   \begin{tcolorbox}[colback=yellow!20, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt, breakable, parbox=false]
    \textcolor{red}{\textbf{Todo}} #1
    \tcblower
 }{
