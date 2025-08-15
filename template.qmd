@@ -6,32 +6,48 @@ format:
     code-fold: true
     appendix-cite-as: display
     link-external-newwindow: true
+    filters:
+      - custom-numbered-blocks
+      - custom-callout
+    custom-numbered-blocks:
+      classes:
+        revcomment:
+          label: Comment
+          collapse: false
+    custom-callout:
+      generalcomment:
+        title: General Comments
+        color: "#cb7cc6ff"
+      revresponse:
+        color: "#000000ff"
+      concludingresponse:
+        color: "#dad70eff"
+      changes:
+        color: "#068000ff"
   reviewer-response-pdf:
     keep-tex: true
+    filters:
+      - latex-environment
+    environments:
+      - generalcomment
+      - revcomment
+      - revresponse
+      - concludingresponse
+      - changes
+    color:
+      change:
+        background: black!2
+        frame: black!20
+      concluding:
+        font: black!80
+        background: black!2
+        frame: black!20
 
 author: Donald Duck and Mickey Mouse
 journal:
   name: IEEE Transactions on Wireless Communications
   manuscript: TWC-2020-X
   editor: Dr. Doom
-
-color:
-  change:
-    background: black!2
-    frame: black!20
-  concluding:
-    font: black!80
-    background: black!2
-    frame: black!20
-
-filters:
-  - latex-environment
-environments:
-  - generalcomment
-  - revcomment
-  - revresponse
-  - concludingresponse
-  - changes
 
 bibliography: bibliography.bib  
 ---

@@ -1,7 +1,9 @@
 .DS_Store
 
+/*.json
 /.luarc.json
 /reviewresponse.cls
 template*.spl
 template*.tex
 template_files/
+template-compact_files/
