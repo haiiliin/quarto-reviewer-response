@@ -21,6 +21,8 @@ format:
         color: "#dad70eff"
       change:
         color: "#068000ff"
+  docx:
+    reference-doc: reviewer-response-template.docx
   reviewer-response-compact-pdf:
     keep-tex: true
     filters:

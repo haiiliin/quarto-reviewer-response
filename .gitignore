@@ -5,6 +5,7 @@
 /reviewresponse.cls
 template*.spl
 template*.tex
+template*.pdf
 template_files/
 template-compact_files/
 

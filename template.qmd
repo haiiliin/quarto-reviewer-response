@@ -27,6 +27,8 @@ format:
       changes:
         title: Changes
         color: "#068000ff"
+  docx:
+    reference-doc: reviewer-response-template.docx
   reviewer-response-pdf:
     keep-tex: true
     filters:
