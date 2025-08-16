@@ -1,0 +1,27 @@
+project:
+  type: website
+  render:
+    - "template*.qmd"
+
+website:
+  title: Reviewer Response
+  back-to-top-navigation: true
+  page-navigation: true
+  repo-url: https://github.com/haiiliin/quarto-reviewer-response
+  repo-actions: [edit, source, issue]
+  navbar:
+    background: primary
+    search: true
+    tools:
+      - icon: house
+        href: https://hailin.wang/
+      - icon: github
+        menu:
+          - text: Home Page
+            href: https://github.com/haiiliin/
+          - text: Source Code
+            href: https://github.com/haiiliin/quarto-reviewer-response/
+  sidebar:
+    style: docked
+    collapse-level: 1
+    contents: auto

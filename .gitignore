@@ -7,3 +7,8 @@ template*.spl
 template*.tex
 template_files/
 template-compact_files/
+
+/.quarto/
+/_site/
+/outputs/
+/site_libs/
