@@ -19,10 +19,13 @@ format:
         title: General Comments
         color: "#cb7cc6ff"
       revresponse:
+        title: Response
         color: "#000000ff"
       concludingresponse:
+        title: Concluding Response
         color: "#dad70eff"
       changes:
+        title: Changes
         color: "#068000ff"
   reviewer-response-pdf:
     keep-tex: true
