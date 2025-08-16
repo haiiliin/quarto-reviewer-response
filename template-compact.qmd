@@ -1,5 +1,5 @@
 ---
-title: My Awesome Paper Title
+title: Reviewer Response (Compact Version)
 format:
   html:
     toc: true
